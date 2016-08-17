@@ -1,0 +1,45 @@
+/* PHASE 6: Sidebar */
+.content-sidebar {
+  position: relative;
+  padding-top: 110px;
+}
+
+.profile-pic {
+  display: block;
+  height: auto;
+  width: 220px;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: absolute;
+  top: -110px;
+}
+
+h2.name {
+
+}
+
+.description {
+
+}
+
+.linked {
+  border-bottom: 1px #ccc solid;
+  padding: 0;
+}
+
+.linked li {
+  border-top: 1px #ccc solid;
+  display: block;
+  padding: 5px;
+  width: 220px;
+}
+
+.linked li a {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.linked li:hover {
+  background: #eee;
+}

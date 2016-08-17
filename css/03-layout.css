@@ -1,0 +1,35 @@
+/* PHASE 3: Layout */
+.content {
+  width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px #ccc solid;
+  min-height: 200px;
+  position: relative;
+}
+
+.content:before {
+  content: "";
+  position: absolute;
+  background: #ccc;
+  width: 1px;
+  top: 0;
+  bottom: 0;
+  left: 240px;
+}
+
+.content-sidebar {
+  float: left;
+  width: 240px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.content-main {
+  float: right;
+  width: 660px;
+  min-height: 100%;
+  box-sizing: border-box;
+  /*border-left: inherit;*/
+  padding: 10px;
+}

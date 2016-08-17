@@ -1,0 +1,33 @@
+/* PHASE 7: Online */
+.ribbon {
+  position: absolute;
+  background: #0c0;
+  top: -94px;
+  left: 11px;
+  transform: rotate(-45deg);
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.ribbon:before {
+  content: "";
+  border-bottom: 21px solid #0c0;
+  border-left: 21px solid transparent;
+  border-right: 21px solid transparent;
+  position: absolute;
+  top: 0px;
+  left: -21px;
+  z-index: -1;
+}
+
+.ribbon:after {
+  content: "";
+  border-bottom: 21px solid #0c0;
+  border-left: 21px solid transparent;
+  border-right: 21px solid transparent;
+  position: absolute;
+  top: 0px;
+  right: -21px;
+  z-index: -1;
+}

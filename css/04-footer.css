@@ -1,0 +1,36 @@
+/* PHASE 4: Footer */
+.nav-footer {
+  width: 900px;
+  margin: 0 auto;
+  background: white;
+  border: #ccc 1px solid;
+  border-top: 0;
+  border-radius: 0 0 5px 5px;
+  color: #ccc;
+}
+
+.copywright {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 15px;
+  float: left;
+}
+
+.footer-menu {
+  float: right;
+  font-size: 14px;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-menu li:hover {
+  color: black;
+}
+
+.footer-menu li {
+  display: inline;
+  margin: 15px;
+}
